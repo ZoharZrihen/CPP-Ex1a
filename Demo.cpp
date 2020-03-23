@@ -1,7 +1,5 @@
-/**
- * Demo program for Gimatriya calculation.
- * 
- * Date: 2020-02
+/*
+ * author: Zohar Zrihen
  */
 
 #include "PhoneticFinder.hpp"
