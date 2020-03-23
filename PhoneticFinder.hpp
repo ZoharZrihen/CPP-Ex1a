@@ -1,13 +1,6 @@
-/*
- * PhoneticFinder.hpp
- *
- *  Created on: 23 Mar 2020
- *      Author: zohar
- */
+#pragma once
+#include <string>
 
-#ifndef PHONETICFINDER_HPP_
-#define PHONETICFINDER_HPP_
-
-
-
-#endif /* PHONETICFINDER_HPP_ */
+namespace phonetic{
+	std::string find(std::string text, std::string word);
+}
