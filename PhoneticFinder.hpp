@@ -1,6 +1,17 @@
-#pragma once
-#include <string>
 
+/*
+Author: Zohar Zrihen
+*/
+
+
+
+#ifndef PHONETICFINDER_HPP_
+#define PHONETICFINDER_HPP_
+#include <string>
+using namespace std;
+char LowerCase(char c);
 namespace phonetic{
-	std::string find(std::string text, std::string word);
+	string find(string text, string word);
 }
+
+#endif
